@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="robots" content="noindex">
+<title>Moved</title>
+<script>
+(function(){
+  var p = location.pathname;
+  var t = 'https://tsuzukit.com/';
+  if (/privacy/i.test(p)) t = 'https://tsuzukit.com/legal/privacy-policy.html';
+  else if (/terms/i.test(p)) t = 'https://tsuzukit.com/legal/terms-of-service.html';
+  else if (/commercial/i.test(p)) t = 'https://tsuzukit.com/legal/commercial-law.html';
+  else if (/disclaimer/i.test(p)) t = 'https://tsuzukit.com/legal/disclaimer.html';
+  location.replace(t);
+})();
+</script>
+<meta http-equiv="refresh" content="1; url=https://tsuzukit.com/">
+</head>
+<body><p>移動しました / Moved: <a href="https://tsuzukit.com/">https://tsuzukit.com/</a></p></body>
+</html>
